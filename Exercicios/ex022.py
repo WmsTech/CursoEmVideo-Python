@@ -1,0 +1,7 @@
+nome = str(input('Digite o seu nome: ')).strip()
+divido = nome.split()
+print('Seu nome completo em maiusculo é {}' .format(nome.upper()))
+print('Seu none completo em minusculo é {}' .format(nome.lower()))
+print('O nome completo possui {} letras sem considerar espaços.' .format(len(''.join(divido))))
+# print('O nome completo possui {} letras sem considerar espaços.' .format(len(nome) - nome.count(' ')))
+print('O primero nome informado foi {} e possui {} letras.' .format(divido[0], len(divido[0])))

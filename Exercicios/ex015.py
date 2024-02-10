@@ -1,0 +1,6 @@
+print('Locadora de Veiculo')
+dia = int(input('Qual a quantidade de dias o carro ficou alugado: '))
+distancia = float(input('Qual a distancia em km percorrida com o veiculo: '))
+diaria = float(input('Qual o valor da diaria da locadora R$'))
+km = float(input('Qual o valor do km da locadora R$'))
+input('O veiculo pecorreu {:.1f}km em {} dias, então o valor do aluguel ficou em R${:.2f}.' .format(distancia, dia, (distancia*km + dia*diaria)))

@@ -1,0 +1,5 @@
+print('Calculadora de desconto')
+valor = float(input('Qual o valor do produto: R$'))
+porcent = float(input('Qual o a porcentagem de desconto (%): '))
+desconto = valor - valor * (porcent / 100)
+print('O produto que custava R${:.2f}, com o desconto de {}% fica R${:.2f}' .format(valor, porcent, desconto))

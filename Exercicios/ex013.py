@@ -1,0 +1,5 @@
+print('Reajuste salarial')
+sal = float(input('Digite o valor do salario do funcionario R$'))
+aumento = float(input('Qual será o aumento percentual do salario (%): '))
+valor = sal + sal * (aumento / 100)
+print('O funcionario com o salario de R${:.2f}, com o reajuste de {}%  receberá R${:.2f}' .format(sal, aumento, valor))
